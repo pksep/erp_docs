@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksep_erp_docs=self.webpackChunksep_erp_docs||[]).push([[9647],{4887:(e,s,r)=>{r.r(s),r.d(s,{default:()=>t});r(758);var c=r(3526),p=r(3595),u=r(951),a=r(389),d=r(9039),n=r(6070);function t(e){return(0,n.jsx)(p.e3,{className:(0,c.A)(u.G.wrapper.docsPages),children:(0,n.jsx)(d.A,{children:(0,a.v)(e.route.routes)})})}}}]);

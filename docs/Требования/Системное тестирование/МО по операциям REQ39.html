@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Требования/Системное тестирование/МО по операциям REQ39" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.4.0">
+<title data-rh="true">МО по операциям REQ39 | SEP:ERP Документация</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="МО по операциям REQ39 | SEP:ERP Документация"><meta data-rh="true" name="description" content="Путь"><meta data-rh="true" property="og:description" content="Путь"><link data-rh="true" rel="icon" href="/sep_erp_docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39" hreflang="en"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39" hreflang="x-default"><link rel="stylesheet" href="/sep_erp_docs/assets/css/styles.40769eb2.css">
+<script src="/sep_erp_docs/assets/js/runtime~main.608d7500.js" defer="defer"></script>
+<script src="/sep_erp_docs/assets/js/main.20a55fd3.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/sep_erp_docs/"><div class="navbar__logo"><img src="/sep_erp_docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/sep_erp_docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">SEP:ERP Документация</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/sep_erp_docs/docs/category/требования">Tutorial</a></div><div class="navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/sep_erp_docs/docs/category/требования">Требования</a><button aria-label="Collapse sidebar category &#x27;Требования&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор изделия REQ20">Базы данных и Редакторы</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Еще не реализовано/Модальное окна Примечание">Еще не реализовано</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Компоненты/Слайдер REQ001">Компоненты</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Настройки/Сохранение баз данных, настроек, истории действий REQ3">Настройки</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Задачи на отгрузку REQ5">Системное тестирование</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Задачи на отгрузку REQ5">Задачи на отгрузку REQ5</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Склад REQ6">Склад REQ6</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7">Комплектация сборок REQ7</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит продукции REQ11">Дефицит продукции REQ11</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12">Дефицит Сборочных Единиц REQ12</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит деталей REQ13">Дефицит деталей REQ13</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация Изделий на план REQ14">Комплектация Изделий на план REQ14</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Склад Задачи на отгрузку REQ15">Склад Задачи на отгрузку REQ15</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Приход на склад от поставщика и производства REQ17">Приход на склад от поставщика и производства REQ17</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Металлообработка REQ18">Металлообработка REQ18</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Сборка REQ19">Сборка REQ19</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Остатки продукции, сборок и деталей на складе REQ32">Остатки продукции, сборок и деталей на складе REQ32</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Ревизия на складе REQ33">Ревизия на складе REQ33</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Сборка Склад REQ34">Сборка Склад REQ34</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО Резка круга REQ37">МО Резка круга REQ37</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО Листовая Резка REQ38">МО Листовая Резка REQ38</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39">МО по операциям REQ39</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Сборка по операциям REQ40">Сборка по операциям REQ40</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Скомплектованные наборы REQ41">Скомплектованные наборы REQ41</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное те стирование/Задачи REQ42">Задачи REQ42</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Сотрудники REQ43">Сотрудники REQ43</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Единицы измерения REQ44">Единицы измерения REQ44</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Результаты работы REQ49">Результаты работы REQ49</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Онлайн табло REQ53">Онлайн табло REQ53</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Движение сущностей REQ54">Движение сущностей REQ54</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Металлообработка склад REQ55">Металлообработка склад REQ55</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Расход со склада REQ56">Расход со склада REQ56</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Заказаны у поставщиков REQ57">Заказаны у поставщиков REQ57</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Архив REQ61">Архив REQ61</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Модальное окно/Отметка о выполнении REQ2">Модальное окно</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Настройки REQ62">Настройки REQ62</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/sep_erp_docs/docs/category/тест-кейсы">Тест Кейсы</a><button aria-label="Expand sidebar category &#x27;Тест Кейсы&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/sep_erp_docs/docs/category/описание-багов">Описание багов</a><button aria-label="Expand sidebar category &#x27;Описание багов&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/sep_erp_docs/docs/category/tutorial---basics">TestTutorial</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/sep_erp_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/sep_erp_docs/docs/category/требования"><span itemprop="name">Требования</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Системное тестирование</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">МО по операциям REQ39</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>МО по операциям REQ39</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="путь">Путь<a class="hash-link" aria-label="Direct link to Путь" title="Direct link to Путь" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#путь">​</a></h2>
+<p>Производство (/production) -&gt; Металлообработка (/metalloworking) -&gt; Детали по операциям -&gt; Операция: <em>:ИмяОперации</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-страницы-операция-имяоперации">Описание страницы &quot;Операция: <em>:ИмяОперации</em>&quot;<a class="hash-link" aria-label="Direct link to описание-страницы-операция-имяоперации" title="Direct link to описание-страницы-операция-имяоперации" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-страницы-операция-имяоперации">​</a></h2>
+<p>Страница представляет собой таблицу, отображающую детали металлообработки, заказанные в производстве, которые должны пройти операцию <em>:ИмяОперации</em>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности">​</a></h3>
+<ul>
+<li><strong>Отображение информации</strong>
+<ul>
+<li>Таблица показывает информацию о деталях, предназначенных для операции <em>:ИмяОперации</em>.</li>
+</ul>
+</li>
+<li><strong>Отметка выполненных деталей</strong>
+<ul>
+<li>Возможность отмечать количество выполненных деталей для отслеживания прогресса.</li>
+</ul>
+</li>
+<li><strong>Интуитивно понятный интерфейс</strong>
+<ul>
+<li>Удобный интерфейс для работы с данными, что облегчает взаимодействие с таблицей.</li>
+</ul>
+</li>
+<li><strong>Поиск и фильтрация</strong>
+<ul>
+<li>Встроенные функции поиска и фильтрации для удобства пользователей, позволяющие быстро находить нужные данные.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал">​</a></h3>
+<ul>
+<li><strong>Отметка о выполнении</strong>
+<ul>
+<li>Пользователи могут отмечать количество выполненных деталей прямо в таблице.</li>
+</ul>
+</li>
+<li><strong>Выбор столбцов для печати</strong>
+<ul>
+<li>Возможность выбора столбцов, ко торые будут включены в печать.</li>
+</ul>
+</li>
+<li><strong>Экспорт в Excel</strong>
+<ul>
+<li>Пользователи могут экспортировать данные таблицы в формате Excel для дальнейшей работы.</li>
+</ul>
+</li>
+<li><strong>Сформировать заявку на работу</strong>
+<ul>
+<li>Функция для создания заявки на выполнение работы по операции <em>:ИмяОперации</em>.</li>
+</ul>
+</li>
+<li><strong>Поиск по Обозначению или Наименованию</strong>
+<ul>
+<li>Внутри таблицы доступен поиск для быстрого нахождения нужных деталей.</li>
+</ul>
+</li>
+<li><strong>Фильтрация данных</strong>
+<ul>
+<li><strong>Сортировка по статусу</strong>: Позволяет фильтровать детали по их текущему статусу.</li>
+<li><strong>Сортировка по родителю</strong>: Позволяет фильтровать детали по родительскому объекту.</li>
+<li><strong>Фильтр по заказу покупателей</strong>: Позволяет фильтровать детали по заказам покупателей.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="требования">Требования<a class="hash-link" aria-label="Direct link to Требования" title="Direct link to Требования" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#требования">​</a></h2>
+<ul>
+<li><strong>Доступность</strong>
+<ul>
+<li>Страница должна быть доступна для всех пользователей с соответствующими правами доступа.</li>
+</ul>
+</li>
+<li><strong>Интерфейс</strong>
+<ul>
+<li>Интерфейс должен быть интуитивно понятным и удобным для навигации.</li>
+</ul>
+</li>
+<li><strong>Отображение данных</strong>
+<ul>
+<li>Таблица должна отображать следующие колонки: <em>№</em>, <em>Изображение</em>, <em>Обозначение детали</em>, <em>Наименование детали</em>, <em>Кол-во, шт.</em>, <em>Срок отгрузки</em>, <em>Заказ</em>, <em>Принадлежность</em>, <em>Парам. Заготовки</em>, <em>Заготовка</em>, <em>Операции</em>, <em>Предыдущая операция</em>, <em>Статус</em>, <em>Сделано, шт.</em>, <em>Осталось, шт.</em>, <em>Норма времени (подготовительное)</em>, <em>Норма времени (вспомогательное)</em>, <em>Норма времени (основное)</em>, <em>Норма времени (общее на партию)</em>, <em>Дата исполнения</em>, <em>Исполнитель</em>, <em>Отработано, н. ч.</em>, <em>Следующая операция</em>, <em>Документы</em>, <em>Примечание</em>, <em>Отметка</em>.</li>
+</ul>
+</li>
+<li><strong>Интерактивные элементы</strong>
+<ul>
+<li>Каждая ячейка таблицы с иконками должна обеспечивать доступ к модальным окнам.</li>
+<li>Иконки должны быть четко обозначены и интуитивно понятны.</li>
+</ul>
+</li>
+<li><strong>Функциональность</strong>
+<ul>
+<li>Пользователи должны иметь возможность отмечать количество выполненных деталей через модальное окно &quot;Отметка о выполнении&quot;.</li>
+<li>Должна быть возможность создания заявки на выполнение заказа.</li>
+<li>Должна быть возможность выбора столбцов для печати с изменением названия кнопки на &quot;Печать&quot;.</li>
+<li>Должна быть возможность экспорта таблицы в формате Excel.</li>
+</ul>
+</li>
+<li><strong>Поиск</strong>
+<ul>
+<li>Должен быть доступен поиск по обозначению или наименованию деталей.</li>
+</ul>
+</li>
+<li><strong>Фильтрация</strong>
+<ul>
+<li>Должна быть возможность фильтрации данных по статусу, родителю детали и заказу покупателей.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Список заказов&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Заказ&quot; и отображать все заказы покупателей и заказы склада</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Принадлежность&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Принадлежность&quot; и отображать родителей детали.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Производственный путь детали&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Операции&quot; и отображать информацию о выполнении на разных этапах операции.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Отметка о выполнении&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Отметка&quot; и позволя ть пользователю указать количество выполненных деталей, дату выполнения и время на подготовительное, вспомогательное и основное.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Документы&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Документы&quot; для работы с документами.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;Примечание&quot;</strong>
+<ul>
+<li>Должно открываться при клике на иконку в колонке &quot;Примечание&quot; для добавления или редактирования примечаний.</li>
+</ul>
+</li>
+<li><strong>Скорость загрузки</strong>
+<ul>
+<li>Страница должна загружаться быстро, чтобы обеспечить комфортное взаимодействие пользователя с интерфейсом.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="макет">Макет<a class="hash-link" aria-label="Direct link to Макет" title="Direct link to Макет" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#макет">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Пример изображение страницы Операция: :ИмяОперации" src="/sep_erp_docs/assets/images/MetalworkingOperation-869e32df0e5ed88dc8c2f39624d6bc39.png" width="1807" height="953" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Пример изображение страницы Операция: :ИмяОперации" src="/sep_erp_docs/assets/images/MetalworkingOperation2-6c606b3e5a9b7a7c1b8ca715d919c26b.png" width="1619" height="843" class="img_ev3q"></p>
+<table><thead><tr><th>Элементы окна</th><th>Назначение</th></tr></thead><tbody><tr><td>Table 1</td><td>Таблица &quot;Операция: <em>:ИмяОперации</em>&quot;</td></tr><tr><td>Order filter</td><td>Фильтр REQ002</td></tr><tr><td>Button 1</td><td>Открывает модальное окно &quot;База Продукции&quot;</td></tr><tr><td>Button 2</td><td>Формирует заявку</td></tr><tr><td>Button 3</td><td>Раскрывает скрытие чекбоксы в заголовках столбцов</td></tr><tr><td>Button 4</td><td>Экспортирует отображаемые данные в формате эксель на устройство</td></tr><tr><td>Dropdown</td><td>Фильтр &quot;Сортировка по статусу&quot;</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="подключенные-компоненты">Подключенные компоненты:<a class="hash-link" aria-label="Direct link to Подключенные компоненты:" title="Direct link to Подключенные компоненты:" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#подключенные-компоненты">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)<a class="hash-link" aria-label="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" title="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#фильтр-заказ-покупателя-из-задач-на-о тгрузку-req002">​</a></h3>
+<ul>
+<li><strong>Заказ покупателя из задач на отгрузку</strong>
+<ul>
+<li>Фильтр (Order filter) REQ002 предоставляет пользователям инструменты для эффективного управления и мониторинга заказов покупателей.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-функции-сортировка-по-родителю-button-1">Описание функции &quot;Сортировка по родителю&quot; (Button 1)<a class="hash-link" aria-label="Direct link to Описание функции &quot;Сортировка по родителю&quot; (Button 1)" title="Direct link to Описание функции &quot;Сортировка по родителю&quot; (Button 1)" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-функции-сортировка-по-родителю-button-1">​</a></h2>
+<p>Кнопка &quot;Выбрать&quot; (Button 1) связана с функцией фильтра по родительскому объекту и предназначена для выбора и установки конкретного объекта (СБ, Изд) в качестве критерия фильтрации.<br>
+<!-- -->При нажатии на эту кнопку открывается модальное окно &quot;База Продукции&quot;, которое позволяет пользователю выбрать необходимый объект из доступных вариантов.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-1">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-1">​</a></h3>
+<ul>
+<li><strong>Интуитивное обозначение</strong>
+<ul>
+<li>Над кнопкой выводится текст &quot;Выбрать Объект (СБ, Изд, Д)&quot;, что четко указывает на ее функциональность и доступные опции.</li>
+</ul>
+</li>
+<li><strong>Модальное окно &quot;База Продукции&quot;</strong>
+<ul>
+<li>Окно предоставляет пользователю список объектов, из которых можно выбрать нужный элемент для фильтрации.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функциональность">Функциональность<a class="hash-link" aria-label="Direct link to Функциональность" title="Direct link to Функциональность" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функциональность">​</a></h3>
+<ul>
+<li><strong>Открытие модального окна</strong>
+<ul>
+<li>Нажатие на кнопку &quot;Выбрать&quot; активирует модальное окно &quot;База Продукции&quot;, где пользователь может выбрать объект для фильтрации.</li>
+</ul>
+</li>
+<li><strong>Выбор объекта</strong>
+<ul>
+<li>Пользователь выбирает один из предложенных объектов (СБ, Изд), который затем используется как критерий для фильтрации данных.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-фильтра-сортировка-по-статусу-dropdown">Описание фильтра &quot;Сортировка по Статусу&quot; (Dropdown)<a class="hash-link" aria-label="Direct link to Описание фильтра &quot;Сортировка по Статусу&quot; (Dropdown)" title="Direct link to Описание фильтра &quot;Сортировка по Статусу&quot; (Dropdown)" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-фильтра-сортировка-по-статусу-dropdown">​</a></h2>
+<p>Фильтр &quot;Сортировка по Статусу&quot; реализован в форме выпадающего меню (Dropdown menu) и предназначен для упрощения управления данными, связанными с таблицей &quot;Операция: <em>:ИмяОперации</em>&quot;.<br>
+<!-- -->Он позволяет пользователям эффективно фильтровать сущности по их статусу выполнения.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-2">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-2">​</a></h3>
+<ul>
+<li><strong>Форма представления</strong>
+<ul>
+<li>Выпадающее меню (Dropdown menu) обеспечивает удобный доступ к опциям фильтрации.</li>
+</ul>
+</li>
+<li><strong>Три варианта фильтрации</strong>
+<ul>
+<li><strong>Все</strong>: отображает все позиции, независимо от их статуса.</li>
+<li><strong>Выполняется</strong>: показывает только те позиции, которые были уже получили отметки о выполнении.</li>
+<li><strong>В работе</strong>: включает позиции, заказанные на производстве, но без отметок о выполнении.</li>
+</ul>
+</li>
+<li><strong>Значение по умолчанию</strong>
+<ul>
+<li>Автоматически выбирается опция &quot;Все&quot;, чтобы пользователь сразу видел полный список без дополнительной настройки.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-1">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал-1">​</a></h3>
+<ul>
+<li><strong>Фильтрация данных</strong>
+<ul>
+<li>Позволяет быстро находить и анализировать сущности в зависимости от их статуса.</li>
+</ul>
+</li>
+<li><strong>Улучшение визуализации</strong>
+<ul>
+<li>Упрощает просмотр данных, предоставляя только актуальную информацию согласно выбранному статусу.</li>
+</ul>
+</li>
+<li><strong>Снижение времени на поиск</strong>
+<ul>
+<li>Уменьшает время, затрачиваемое на поиск необходимой информации, за счёт быстрого переключения между статусами.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-таблицы-операция-имяоперации-table-1">Описание таблицы &quot;Операция: <em>:ИмяОперации</em>&quot; (Table 1)<a class="hash-link" aria-label="Direct link to описание-таблицы-операция-имяоперации-table-1" title="Direct link to описание-таблицы-операция-имяоперации-table-1" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-таблицы-операция-имяоперации-table-1">​</a></h2>
+<p>Таблица &quot;Операция: <em>:ИмяОперации</em>&quot; содержит детали металлообработки, заказанные в производстве, которые должны пройти операцию <em>:ИмяОперации</em>.<br>
+<!-- -->Она предоставляет пользователям полную информацию о деталях и их статусе на этапе операции <em>:ИмяОперации</em>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="структура">Структура<a class="hash-link" aria-label="Direct link to Структура" title="Direct link to Структура" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#структура">​</a></h3>
+<p>Таблица состоит из следующих столбцов:</p>
+<ul>
+<li><strong>№</strong>
+<ul>
+<li>Порядковый номер.</li>
+</ul>
+</li>
+<li><strong>Изображение</strong>
+<ul>
+<li>Изображение детали.</li>
+</ul>
+</li>
+<li><strong>Обозначение детали</strong>
+<ul>
+<li>Обозначение детали.</li>
+<li>При наведении курсора, шрифт текста становится жирным, а при клике текст копируется.</li>
+</ul>
+</li>
+<li><strong>Наименование детали</strong>
+<ul>
+<li>Наименование детали.</li>
+<li>При клике открывается модальное окно &quot;Краткая Информация о детали&quot;.</li>
+</ul>
+</li>
+<li><strong>Кол-во шт.</strong>
+<ul>
+<li>Количество остатка заказанных деталей по заказам склада.</li>
+</ul>
+</li>
+<li><strong>Срок отгрузки</strong>
+<ul>
+<li>Дата планируемой отгрузки заказов покупателей и заказов склада.</li>
+<li>Если есть заказы покупателей, берется самая ранняя дата, в ином случае - самая ранняя из заказов склада.</li>
+</ul>
+</li>
+<li><strong>Поиск</strong>
+<ul>
+<li>Расположен под описанными выше колонками и занимает всю их ширину.</li>
+<li>Позволяет искать детали по &quot;Обозначению&quot; или &quot;Наименованию&quot;.</li>
+<li>Включает возможность просмотра истории запросов поиска.</li>
+<li>Используется placeholder для подсказки пользователю допустимых значений поиска.</li>
+</ul>
+</li>
+<li><strong>Заказ</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">Иконка</a>, при клике открывающая модальное окно &quot;Список заказов&quot;, где отображаются все заказы покупателей и заказы склада связанные с данной деталью.</li>
+</ul>
+</li>
+<li><strong>Принадлежность</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">Иконка</a>, при клике открывающая модальное окно &quot;Принадлежность&quot;, где отображаются родители детали.</li>
+</ul>
+</li>
+<li><strong>Парам. Заготовки</strong>
+<ul>
+<li>Параметры для изготовления детали, взятые из табли цы характеристик заготовки полной спецификации детали, за исключением: Материала заготовки, Материала заготовки (заменитель), Плотности (П), Расчетной массы заготовки, Отходов.</li>
+</ul>
+</li>
+<li>По умолчанию столбец отображается в свернутом состоянии в виде <a href="/sep_erp_docs/assets/files/IconLine-cad8fe4429cf30355e215b1d736691d7.png" target="_blank">линии</a> и при клике переключается между развернутым и свернутым состояниями.</li>
+<li><strong>Заготовка</strong>
+<ul>
+<li>Отображает материал заготовки из таблицы характеристик заготовки полной спецификации детали.</li>
+</ul>
+</li>
+<li><strong>Операции</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">Иконка</a>, при клике открывающая модальное окно &quot;Производственный путь детали&quot;, где отображается информация о выполнении на разных этапах операции выбранной детали.</li>
+<li>Над иконкой отображается количество операций детали.</li>
+</ul>
+</li>
+<li><strong>Предыдущая операция</strong>
+<ul>
+<li>Отображает название предыдущей операции в технологическом процессе детали и количество выполненных деталей из заказанного объема перед переходом на этап операции <em>:ИмяОперации</em>.</li>
+<li>Если предыдущих операций нет, выводится значение &quot;Нет&quot;.</li>
+<li>Если существует предыдущая операция и кликнуть на нее, откроется соответствующая страница операции в новом окне.</li>
+<li>При наведении курсора, шрифт текста становится жирным.</li>
+</ul>
+</li>
+<li><strong>Статус</strong>
+<ul>
+<li>Статус детали на данном этапе операции <em>:ИмяОперации</em> (например, &quot;В работе&quot; или &quot;Выполняется&quot;).</li>
+</ul>
+</li>
+<li><strong>Сделано, шт.</strong>
+<ul>
+<li>Количество сделанных деталей с помощью отметок о выполнении.</li>
+</ul>
+</li>
+<li><strong>Осталось, шт.</strong>
+<ul>
+<li>Количество, что осталось сделать из общего заказа склада с учетом количества сделанных штук.</li>
+</ul>
+</li>
+<li><strong>Норма времени (подготовительное), шт.</strong>
+<ul>
+<li>Норма времени на подготовительную работу, взятая из полной спецификации детали в разделе технологического процесса, соответствующем операции.</li>
+</ul>
+</li>
+<li><strong>Норма времени (вспомогательное), шт.</strong>
+<ul>
+<li>Норма времени на вспомогательную работу, взятая из полной спецификации детали в разделе технологического процесса, соответствующем операции.</li>
+</ul>
+</li>
+<li><strong>Норма времени (основное), шт.</strong>
+<ul>
+<li>Норма времени на основную работу, взятая из полной спецификации детали в разделе технологического процесса, соответствующем операции.</li>
+</ul>
+</li>
+<li>По умолчанию три столбца выше: <em>Норма времени (подготовительное), шт.</em>, <em>Норма времени (вспомогательное), шт.</em> и <em>Норма времени (основное), шт.</em> отображаются в свернутом состоянии в виде одной <a href="/sep_erp_docs/assets/files/IconLine-cad8fe4429cf30355e215b1d736691d7.png" target="_blank">линии</a> и при клике переключается между развернутым и свернутым состояниями.</li>
+<li><strong>Норма времени (общее на партию), ч.</strong>
+<ul>
+<li>Общее время на партию деталей, рассчитываемое как Подготовительное время + (Вспомогательное время + Основное время) * количество деталей в заказах склада, отображается в минутах.</li>
+</ul>
+</li>
+<li><strong>Дата исполнения</strong>
+<ul>
+<li>Дата исполнения всего количества.</li>
+</ul>
+</li>
+<li><strong>Исполнитель</strong>
+<ul>
+<li>ФИО исполнителя.</li>
+</ul>
+</li>
+<li><strong>Отработано, н. ч.</strong>
+<ul>
+<li>Количество отработанного времени по норме.</li>
+</ul>
+</li>
+<li><strong>Следующая операция</strong>
+<ul>
+<li>Отображает следующую операцию в технологическом процессе детали, используя информацию из полной спецификации детали.</li>
+<li>Если операций нет, выводится значение &quot;Нет&quot;.</li>
+<li>Если существует следующая операция и кликнуть на нее, откроется соответствующая страница операции в новом окне.</li>
+<li>При наведении курсора, шрифт текста становится жирным.</li>
+</ul>
+</li>
+<li><strong>Документы</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">Иконка</a>, при клике открывающая модальное окно &quot;Карточка файлов&quot; для работы с документами, связанными с деталью.</li>
+</ul>
+</li>
+<li><strong>Примечание</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">Иконка</a>, при клике открывающая модальное окно &quot;Примечание&quot;.</li>
+</ul>
+</li>
+<li><strong>Отметка</strong>
+<ul>
+<li><a href="/sep_erp_docs/assets/files/IconPencil-bfffe00e621f63411f27d65af55c1b18.png" target="_blank">Иконка карандаша</a>, при клике открывающая модальное окно &quot;Отметка о выполнении&quot;, где можно указать количество выполненных деталей, дату выполнения и время на подготовительное, вспомогательное и основное.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-3">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-3">​</a></h3>
+<ul>
+<li>Интерактивные элементы (иконки) для быстрого доступа к дополнительной информации.</li>
+<li>Возможность фильтрации и сортировки данных по различным критериям.</li>
+<li>Таблица сортируется по столбцу &quot;Срок отгрузки&quot; в порядке от самой ранней даты.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-2">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал-2">​</a></h3>
+<ul>
+<li><strong>Отметка выполненных деталей</strong>
+<ul>
+<li>Пользователи могут указывать количество выполненных деталей на данном этапе через модальное окно &quot;Отметка о выполнении&quot;.</li>
+</ul>
+</li>
+<li><strong>Сформировать заявку</strong> (Button 2)<!-- -->
+<ul>
+<li>Кнопка для создания заявки на выполнение заказа.</li>
+</ul>
+</li>
+<li><strong>Выбрать столбцы для печати</strong> (Button 3)<!-- -->
+<ul>
+<li>Позволяет пользователям выбирать, какие столбцы будут отправлены на печать.</li>
+<li>При нажатии на кнопку &quot;Выбрать столбцы для печати&quot; в заголовках столбцов таблицы становятся видимыми чекбоксы, а кнопка изменяет название на &quot;Печать&quot;.</li>
+<li>По умолчанию отмечены чекбоксы в столбцах: <em>№</em>, <em>Изображение</em>, <em>Обозначение Детали</em>, <em>Наименование детали</em>, <em>Заказано</em>, <em>Срок отгрузки</em>, <em>Параметры заготовки</em>, <em>Заготовка</em>, <em>Предыдушая операция</em>, <em>Статус</em>, <em>Сделано, шт.</em>, <em>Осталось, шт.</em>, <em>Норма времени (подготовительное), шт.</em>, <em>Норма времени (вспомогательное), шт.</em>, <em>Норма времени (основное), шт.</em>,  <em>Норма времени (общее на партию), ч.</em>, <em>Дата исполнения</em>, <em>Исполнитель</em>, <em>Отработано, н. ч.</em>, <em>Следующая операция</em>.<!-- -->
+<ul>
+<li>При нажатии на кнопку &quot;Печать&quot; отправляет отмеченные столбцы и их содержание на предпросмотр печати.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Экспорт в EXCEL</strong> (Button 4)<!-- -->
+<ul>
+<li>Экспортирует таблицу в формате Excel для сохранения на устройстве.</li>
+</ul>
+</li>
+<li><strong>Поиск и фильтрация</strong>
+<ul>
+<li>Внутри таблицы доступен поиск по обозначению или наименованию, а также фильтрация по статусу, родителю детали и заказу покупателей.</li>
+</ul>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Требования/Системное тестирование/МО по операциям REQ39.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО Листовая Резка REQ38"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">МО Листовая Резка REQ38</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/sep_erp_docs/docs/Требования/Системное тестирование/Сборка по операциям REQ40"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Сборка по операциям REQ40</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#путь">Путь</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-страницы-операция-имяоперации">Описание страницы &quot;Операция: <em>:ИмяОперации</em>&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#требования">Требования</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#макет">Макет</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#подключенные-компоненты">Подключенные компоненты:</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-функции-сортировка-по-родителю-button-1">Описание функции &quot;Сортировка по родителю&quot; (Button 1)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-1">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функциональность">Функциональность</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требо вания/Системное тестирование/МО по операциям REQ39#описание-фильтра-сортировка-по-статусу-dropdown">Описание фильтра &quot;Сортировка по Статусу&quot; (Dropdown)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-2">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал-1">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#описание-таблицы-операция-имяоперации-table-1">Описание таблицы &quot;Операция: <em>:ИмяОперации</em>&quot; (Table 1)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#структура">Структура</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#особенности-3">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/МО по операциям REQ39#функционал-2">Функционал</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>

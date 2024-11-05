@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.4.0">
+<title data-rh="true">База инструмента и оснастки REQ23 | SEP:ERP Документация</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="База инструмента и оснастки REQ23 | SEP:ERP Документация"><meta data-rh="true" name="description" content="Путь"><meta data-rh="true" property="og:description" content="Путь"><link data-rh="true" rel="icon" href="/sep_erp_docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23" hreflang="en"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23" hreflang="x-default"><link rel="stylesheet" href="/sep_erp_docs/assets/css/styles.40769eb2.css">
+<script src="/sep_erp_docs/assets/js/runtime~main.608d7500.js" defer="defer"></script>
+<script src="/sep_erp_docs/assets/js/main.20a55fd3.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/sep_erp_docs/"><div class="navbar__logo"><img src="/sep_erp_docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/sep_erp_docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">SEP:ERP Документация</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/sep_erp_docs/docs/category/требования">Tutorial</a></div><div class="navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/sep_erp_docs/docs/category/требования">Требования</a><button aria-label="Collapse sidebar category &#x27;Требования&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор издели я REQ20">Базы данных и Редакторы</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор изделия REQ20">Редактор изделия REQ20</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База деталей REQ21">База деталей REQ21</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор материала REQ22">Редактор материала REQ22</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23">База инструмента и оснастки REQ23</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База материалов REQ24">База материалов REQ24</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор инструментов и оснастки REQ25">Редактор инструментов и о снастки REQ25</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База оборудования REQ26">База оборудования REQ26</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор оборудования REQ27">Редактор оборудования REQ27</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База техники и инвентаря REQ 28">База техники и инвентаря REQ 28</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База техники и инвентаря REQ28">База техники и инвентаря REQ28</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База поставщиков REQ29">База поставщиков REQ29</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База покупателей REQ30">База покупателей REQ30</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База файлов REQ31">База файлов REQ31</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Еще не реализовано/Модальное окна Примечание">Еще не реализовано</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Компоненты/Слайдер REQ001">Компоненты</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Настройки/Сохранение баз данных, настроек, истории действий REQ3">Настройки</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/sep_erp_docs/docs/Требования/Системное тестирование/Задачи на отгрузку REQ5">Системное тестирование</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/sep_erp_docs/docs/category/тест-кейсы">Тест Кейсы</a><button aria-label="Expand sidebar category &#x27;Тест Кейсы&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/sep_erp_docs/docs/category/описание-багов">Описание багов</a><button aria-label="Expand sidebar category &#x27;Описание багов&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/sep_erp_docs/docs/category/tutorial---basics">TestTutorial</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/sep_erp_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/sep_erp_docs/docs/category/требования"><span itemprop="name">Требования</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Базы данных и Редакторы</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">База инструмента и оснастки REQ23</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>База инструмента и оснастки REQ23</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="путь">Путь<a class="hash-link" aria-label="Direct link to Путь" title="Direct link to Путь" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#путь">​</a></h2>
+<p>База инструмента и оснастки (/basetools)</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-страницы-база-инструмента-и-оснастки">Описание страницы База инструмента и оснастки<a class="hash-link" aria-label="Direct link to Описание страницы База инструмента и оснастки" title="Direct link to Описание страницы База инструмента и оснастки" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#опи сание-страницы-база-инструмента-и-оснастки">​</a></h2>
+<p>Страница &quot;База инструмента и оснастки&quot; состоит из трех таблиц, организованных по иерархии от Наименования (Марка/типоразмер) к Подтипу и до Типа (Инструмента или оснастки).<br>
+<!-- -->На данной странице можно создавать новые сущности, как с нуля, так и путем копирования в соответствующую таблицу.<br>
+<!-- -->Также предоставляется возможность редактировать сущности в таблицах и отправлять их в архив.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности">​</a></h3>
+<ul>
+<li><strong>Иерархическая структура</strong>
+<ul>
+<li>Таблицы организованы по иерархии от Наименования (Марка/типоразмер) к Подтипу и до Типа (Инструмента или оснастки), что позволяет легко прослеживать связи между сущностями.</li>
+</ul>
+</li>
+<li><strong>Создание и копирование сущностей</strong>
+<ul>
+<li>Возможность создания новых сущностей с нуля или путем копирования существующих записей для ускорения работы.</li>
+</ul>
+</li>
+<li><strong>Редактирование и архивирование</strong>
+<ul>
+<li>Удобные инструменты для редактирования сущностей и отправки их в архив для долгосрочного хранения.</li>
+</ul>
+</li>
+<li><strong>Фильтры и поиск</strong>
+<ul>
+<li>Несколько фильтров для удобства работы с данными, включая сортировку по отметке, сортировку по дате создания, фильтр &quot;Показать мое&quot;, а также встроенный поиск в каждой таблице.</li>
+</ul>
+</li>
+<li><strong>Отображение потомков</strong>
+<ul>
+<li>При выборе сущности родителя в таблицах отображаются её потомки, что облегчает навигацию по данным.</li>
+</ul>
+</li>
+<li><strong>Переключатели категорий</strong>
+<ul>
+<li>Над таблицами расположено четыре переключателя: &quot;Все&quot;, &quot;Инструменты&quot;, &quot;Оснастка&quot;, &quot;Мерительный инструмент&quot;, при переключении которых все таблицы фильтруются по этим категориям.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал">​</a></h3>
+<ul>
+<li><strong>Создание новых сущностей</strong>
+<ul>
+<li>Возможность добавления новых записей в таблицы, как с нуля, так и путем копирования существующих записей.</li>
+</ul>
+</li>
+<li><strong>Редакти рование сущностей</strong>
+<ul>
+<li>Возможность редактирования данных в таблицах для актуализации информации.</li>
+</ul>
+</li>
+<li><strong>Архивирование сущностей</strong>
+<ul>
+<li>Функция отправки сущностей в архив для долгосрочного хранения без удаления.</li>
+</ul>
+</li>
+<li><strong>Фильтры и сортировка</strong>
+<ul>
+<li><strong>Сортировка по отметке</strong>: Приоритизация записей по отметке.</li>
+<li><strong>Сортировка по дате создания</strong>: Упорядочивание записей по дате создания.</li>
+<li><strong>Фильтр &quot;Показать мое&quot;</strong>: Отображение только записей текущего пользователя.</li>
+<li><strong>Фильтрация по категориям</strong>: Применяет фильтры ко всем таблицам в соответствии с выбранными категориями.</li>
+<li><strong>Поиск в таблицах</strong>: Встроенный поиск в каждой таблице для быстрого нахождения нужных записей.</li>
+</ul>
+</li>
+<li><strong>Отображение потомков</strong>
+<ul>
+<li>При выборе родительской сущности в таблицах автоматически отображаются её потомки, что позволяет легко прослеживать иерархические связи.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="требования">Требования<a class="hash-link" aria-label="Direct link to Требования" title="Direct link to Требования" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#требования">​</a></h2>
+<ul>
+<li><strong>Интерфейс и навигация</strong>
+<ul>
+<li>Страница должна предоставлять доступ к трем основным таблицам: &quot;Наименование (Марка/типоразмер)&quot;, &quot;Подтип&quot;, &quot;Тип (Инструмента или оснастки)&quot;.</li>
+<li>Отображение общего количества записей в каждой таблице.</li>
+<li>Возможность просмотра связанных записей при выборе родительской записи.</li>
+</ul>
+</li>
+<li><strong>Сортировка и фильтрация</strong>
+<ul>
+<li>Возможность сортировки записей по различным критериям, таким как отметка и дата.</li>
+<li>Фильтрация записей для отображения только данных текущего пользователя.</li>
+<li>Функция сброса всех фильтров для возврата к исходному состоянию.</li>
+</ul>
+</li>
+<li><strong>Управление записями</strong>
+<ul>
+<li>Возможность создания новых записей.</li>
+<li>Функция дублирования существующих записей.</li>
+<li>Возможность редактирования и обновления записей.</li>
+<li>Архивирование записей для долгосрочного хранения.</li>
+</ul>
+</li>
+<li><strong>Функциональность</strong>
+<ul>
+<li>Интуитивно понятный и удобный интерфейс.</li>
+<li>Простая и логичная навигация по структуре данных.</li>
+<li>Надежное хранение данных и легкий доступ к ним.</li>
+</ul>
+</li>
+<li><strong>Про изводительность</strong>
+<ul>
+<li>Быстрое выполнение операций сортировки и фильтрации.</li>
+<li>Обеспечение плавного пользовательского опыта, даже при большом объеме данных.</li>
+</ul>
+</li>
+<li><strong>Безопасность</strong>
+<ul>
+<li>Ограничение доступа к функциям редактирования и архивирования в зависимости от прав пользователя.</li>
+<li>Защита данных от несанкционированного доступа и изменений.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="макет">Макет<a class="hash-link" aria-label="Direct link to Макет" title="Direct link to Макет" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#макет">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Пример изображения Базы деталей" src="/sep_erp_docs/assets/images/DatabaseOfTools-19546384a2c39526dcd8a32c217c9780.png" width="1110" height="772" class="img_ev3q"></p>
+<table><thead><tr><th>Элементы окна</th><th>Назначение</th></tr></thead><tbody><tr><td>Table 1</td><td>Таблица &quot;Наименование (Марка/типоразмер)&quot;</td></tr><tr><td>Table 2</td><td>Таблица &quot;Подтип&quot;</td></tr><tr><td>Table 3</td><td>Таблица &quot;Тип (Инструмента или оснастки)&quot;</td></tr><tr><td>Button 1</td><td>Сортирует по отметке</td></tr><tr><td>Button 2</td><td>Сортирует по дате создания</td></tr><tr><td>Button 3</td><td>Отображает только созданные пользователем записи</td></tr><tr><td>Button 4</td><td>Сбрасывает все фильтры</td></tr><tr><td>Button 5</td><td>Открывает окно &quot;Создать инструмент или оснастку&quot;</td></tr><tr><td>Button 6</td><td>Открывает окно &quot;Создать инструмент или оснастку&quot;</td></tr><tr><td>Button 7</td><td>Открывает окно &quot;Создать инструмент или оснастку&quot;</td></tr><tr><td>Button 8</td><td>Отправляет выбранную сущность в архив</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-сортировки-по-отметке-button-1">Описание Сортировки по отметке (Button 1)<a class="hash-link" aria-label="Direct link to Описание Сортировки по отметке (Button 1)" title="Direct link to Описание Сортировки по отметке (Button 1)" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-по-отметке-button-1">​</a></h2>
+<p>Функция сортировки по отметке позволяет пользователям упорядочивать записи в таблицах базы данных на основе заданных отметок.<br>
+<!-- -->Это упрощает навигацию и поиск нужных данных.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-1">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-1">​</a></h3>
+<ul>
+<li><strong>Интуитивный интерфейс</strong>
+<ul>
+<li>Сортировка выполняется через простую кнопку, что делает процесс понятным и доступным для всех пользователей.</li>
+</ul>
+</li>
+<li><strong>Визуальная индикация</strong>
+<ul>
+<li>Когда сортировка активна, кнопка выделяется синим цветом, что дает пользователю четкий визуальный сигнал о текущем состоянии фильтра.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-1">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-1">​</a></h3>
+<ul>
+<li><strong>Активация сортировки</strong>
+<ul>
+<li>Нажатие на кнопку (Button 1) активирует сортировку всех таблиц по отметкам.</li>
+<li>Кнопка изменяет цвет на синий, показывая, что сортировка включена.</li>
+</ul>
+</li>
+<li><strong>Деактивация сортировки</strong>
+<ul>
+<li>Повторное нажатие на кнопку отключает сортировку.</li>
+<li>Кнопка возвращается к исходному цвету, сигнализируя об отключении фильтра.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Сортировка применяется ко всем таблицам одновременно, обеспечивая единообразие отображения данных.</li>
+</ul>
+</li>
+<li><strong>Пользовательский опыт</strong>
+<ul>
+<li>Простая и понятная визуальная обратная связь улучшает взаимодействие с базой данных, делая его более удобным и приятным.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-сортировки-по-дате-создания-button-2">Описание Сортировки по дате создания (Button 2)<a class="hash-link" aria-label="Direct link to Описание Сортировки по дате создания (Button 2)" title="Direct link to Описание Сортировки по дате создания (Button 2)" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-по-дате-создания-button-2">​</a></h2>
+<p>Функция сортировки по дате создания позволяет пользователям быстро упорядочивать записи в базе данных, начиная с самых свежих.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-2">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-2">​</a></h3>
+<ul>
+<li><strong>Интуитивно понятный интерфейс</strong>
+<ul>
+<li>Сортировка осуществляется нажатием на кнопку, что упрощает взаимодействие.</li>
+</ul>
+</li>
+<li><strong>Визуальная индикация</strong>
+<ul>
+<li>При активации кнопка меняет цвет на синий, сигнализируя об активном фильтре.</li>
+</ul>
+</li>
+<li><strong>Синхронное обновление</strong>
+<ul>
+<li>Все таблицы сортируются одновременно, обеспечивая согласованность данных.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-2">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-2">​</a></h3>
+<ul>
+<li><strong>Активация</strong>
+<ul>
+<li>Нажатие на кнопку (Button 2) активирует сортировку всех таблиц по дате создания записи.</li>
+<li>Кнопка изменяет цвет на синий, показывая, что сортировка включена.</li>
+</ul>
+</li>
+<li><strong>Деактивация</strong>
+<ul>
+<li>Повторное нажатие на кнопку отключает сортировку.</li>
+<li>Кнопка возвращается к исходному цвету, сигнализируя об отключении фильтра.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Сортировка применяется ко всем таблицам одновременно, обеспечивая единообразие отображения данных.</li>
+</ul>
+</li>
+<li><strong>Быстродействие</strong>
+<ul>
+<li>Обеспечивает мгновенное выполнение сортировки без задержек.</li>
+</ul>
+</li>
+<li><strong>Улучшенная навигация</strong>
+<ul>
+<li>Позволяет пользователям быстро находить актуальные записи, повышая эффективность работы.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-сортировки-показать-мои-button-3">Описание сортировки  Показать мои (Button 3)<a class="hash-link" aria-label="Direct link to Описание сортировки Показать мои (Button 3)" title="Direct link to Описание сортировки Показать мои (Button 3)" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-показать-мои-button-3">​</a></h2>
+<p>Функция &quot;Показать мои&quot; позволяет пользователям быстро фильтровать записи, отображая только созданные ими.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-3">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-3">​</a></h3>
+<ul>
+<li><strong>Простота использования</strong>
+<ul>
+<li>Фильтрация осуществляется нажатием на кнопку, что делает процесс быстрым и легким.</li>
+</ul>
+</li>
+<li><strong>Визуальная индикация</strong>
+<ul>
+<li>При активации кнопка меняет цвет на синий, показывая, что фильтр активен.</li>
+</ul>
+</li>
+<li><strong>Персонализированный доступ</strong>
+<ul>
+<li>Показывает только релевантные пользователю записи.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-3">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данны х и Редакторы/База инструмента и оснастки REQ23#функционал-3">​</a></h3>
+<ul>
+<li><strong>Активация</strong>
+<ul>
+<li>Нажатие на кнопку (Button 3) фильтрует записи, показывая только созданные пользователем.</li>
+<li>Кнопка изменяет цвет на синий, показывая, что сортировка включена.</li>
+</ul>
+</li>
+<li><strong>Деактивация</strong>
+<ul>
+<li>Повторное нажатие на кнопку отключает сортировку.</li>
+<li>Кнопка возвращается к исходному цвету, сигнализируя об отключении фильтра.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Сортировка применяется ко всем таблицам одновременно, обеспечивая единообразие отображения данных.</li>
+</ul>
+</li>
+<li><strong>Быстродействие</strong>
+<ul>
+<li>Обеспечивает мгновенное выполнение фильтрации, улучшая пользовательский опыт.</li>
+</ul>
+</li>
+<li><strong>Улучшенная навигация</strong>:<!-- -->
+<ul>
+<li>Позволяет пользователям сосредоточиться на своих данных, повышая эффективность работы.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-сборосить-button-4">Описание Сборосить (Button 4)<a class="hash-link" aria-label="Direct link to Описание Сборосить (Button 4)" title="Direct link to Описание Сборосить (Button 4)" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сборосить-button-4">​</a></h2>
+<p>Функция &quot;Сбросить&quot; позволяет быстро отменить все примененные фильтры и сортировки, возвращая таблицы к исходному состоянию.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-4">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-4">​</a></h3>
+<ul>
+<li><strong>Удобство использования</strong>
+<ul>
+<li>Сбрасывает все настройки одним нажатием.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Работает для всех активных фильтров и сортировок.</li>
+</ul>
+</li>
+<li><strong>Экономия времени</strong>
+<ul>
+<li>Ускоряет процесс работы с данными.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-4">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-4">​</a></h3>
+<ul>
+<li><strong>Сброс всех настроек</strong>
+<ul>
+<li>Нажатие на кнопку (Button 4) отменяет все активные фильтры и сортировки, возвращая данные к исходному виду.</li>
+</ul>
+</li>
+<li><strong>Универсальное применение</strong>
+<ul>
+<li>Применяется ко всем таблицам, гарантируя полное восстановление первоначального состояния.</li>
+</ul>
+</li>
+<li><strong>Интуитивная навигация</strong>
+<ul>
+<li>Упрощает управление данными, позволяя быстро начать работу заново.</li>
+</ul>
+</li>
+<li><strong>Повышение эффективности</strong>
+<ul>
+<li>Уменьшает количество действий, необходимых для отмены изменений, что повышает продуктивность.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-таблиц">Описание таблиц<a class="hash-link" aria-label="Direct link to Описание таблиц" title="Direct link to Описание таблиц" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-таблиц">​</a></h2>
+<p>Таблицы &quot;Типа (Инструмента или оснастки)&quot;, &quot;Подтипу&quot;, &quot;Наименование (Марка/типоразмер)&quot; выполнены в один столбец и предоставляют перечень типов сущности соответствующей таблицы.<br>
+<!-- -->При выборе позиции из списка, другие таблицы фильтруются по потомкам выбранной сущности.<br>
+<!-- -->Под названием столбцов расположен поиск по наименованиям с placeholder для удобства пользователя и возможностью просматривать историю запросов.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="структура">Структура<a class="hash-link" aria-label="Direct link to Структура" title="Direct link to Структура" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#структура">​</a></h3>
+<ul>
+<li><strong>Таблица &quot;Тип (Инструмента или оснастки)&quot;</strong> (Table 1)<!-- -->
+<ul>
+<li>Содержит перечень типов инструментов или оснастки.</li>
+</ul>
+</li>
+<li><strong>Таблица &quot;Подтип&quot;</strong> (Table 2)<!-- -->
+<ul>
+<li>Содержит перечень подтипов инструментов или оснастки.</li>
+</ul>
+</li>
+<li><strong>Таблица &quot;Наименование (Марка/типоразмер)&quot;</strong> (Table 3)<!-- -->
+<ul>
+<li>Содержит перечень наименований (марок/типоразмеров) инструментов или оснастки.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-5">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-5">​</a></h3>
+<ul>
+<li><strong>Иерархическая структура</strong>
+<ul>
+<li>Таблицы организованы по иерархии от наименования (марка/типоразмер) к подтипу и до типа (инструмента или оснастки), что позволяет легко прослеживать связи между сущностями.</li>
+</ul>
+</li>
+<li><strong>Поиск по наименованиям</strong>
+<ul>
+<li>Под названием столбцов расположен поиск по наименованиям с placeholder для удобства пользователя и возможностью просматривать историю запросов.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-5">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-5">​</a></h3>
+<ul>
+<li><strong>Выбор позиции</strong>
+<ul>
+<li>При выборе позиции из списка, другие таблицы фильтруются по потомкам выбранной сущности, что облегчает навигацию по данным.</li>
+</ul>
+</li>
+<li><strong>Поиск</strong>
+<ul>
+<li>Встроенный поиск по наименованиям с placeholder для быстрого нахождения нужных записей.</li>
+<li>Возможность просматривать историю запросов для удобства пользователя.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-кнопок-категорий">Описание кнопок категорий<a class="hash-link" aria-label="Direct link to Описание кнопок категорий" title="Direct link to Описание кнопок категорий" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-кнопок-категорий">​</a></h2>
+<p>Кнопки категорий &quot;Все&quot; (выбрано по умолчанию), &quot;Инструменты&quot;, &quot;Оснастка&quot;, &quot;Меритальный инструмент&quot; расположены над таблицами и при выборе фильтруют все таблицы по соответствующим категориям.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особен ности-6">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-6">​</a></h3>
+<ul>
+<li><strong>Простота использования</strong>
+<ul>
+<li>Кнопки расположены над таблицами, что делает их легко доступными для пользователя.</li>
+</ul>
+</li>
+<li><strong>Визуальная индикация</strong>
+<ul>
+<li>Активная кнопка выделяется, показывая текущий выбранный фильтр.</li>
+<li>Кнопка &quot;Все&quot; выбрана по умолчанию и подсвечивается синим фоном.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Фильтрация применяется ко всем таблицам одновременно, обеспечивая согласованность данных.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-6">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-6">​</a></h3>
+<ul>
+<li><strong>Активация фильтра</strong>
+<ul>
+<li>Нажатие на кнопку &quot;Все&quot; сбрасывает все фильтры категорий, показывая все записи, выбрано по умолчанию.</li>
+<li>Нажатие на кнопку &quot;Инструменты&quot; фильтрует таблицы, показывая только записи, относящиеся к инструментам.</li>
+<li>Нажатие на кнопку &quot;Оснастка&quot; фильтрует таблицы, показывая только записи, относящиеся к оснастке.</li>
+<li>Нажатие на кнопку &quot;Меритальный инструмент&quot; фильтрует таблицы, показывая только записи, относящиеся к меритальному инструменту.</li>
+</ul>
+</li>
+<li><strong>Деактивация фильтра</strong>
+<ul>
+<li>Чтобы снять сортировку по категориям, выберите кнопку &quot;Все&quot;.</li>
+</ul>
+</li>
+<li><strong>Универсальность</strong>
+<ul>
+<li>Фильтрация применяется ко всем таблицам одновременно, обеспечивая единообразие отображения данных.</li>
+</ul>
+</li>
+<li><strong>Быстродействие</strong>
+<ul>
+<li>Обеспечивает мгновенное выполнение фильтрации без задержек.</li>
+</ul>
+</li>
+<li><strong>Улучшенная навигация</strong>
+<ul>
+<li>Позволяет пользователям быстро находить нужные записи, повышая эффективность работы.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-компонентов-управления">Описание компонентов управления<a class="hash-link" aria-label="Direct link to Описание компонентов управления" title="Direct link to Описание компонентов управления" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-компонентов-управления">​</a></h2>
+<p>Компоненты управления включают четы ре кнопки: Создать, Создать копированием, Редактировать, Архив.<br>
+<!-- -->Эти кнопки позволяют управлять сущностями в таблицах.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-7">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-7">​</a></h3>
+<ul>
+<li><strong>Интуитивно понятный интерфейс</strong>
+<ul>
+<li>Легкость в использовании благодаря четко обозначенным кнопкам.</li>
+</ul>
+</li>
+<li><strong>Гибкость</strong>
+<ul>
+<li>Возможность как создания новых сущностей, так и работы с существующими.</li>
+</ul>
+</li>
+<li><strong>Архивирование</strong>
+<ul>
+<li>Упрощает управление данными, позволяя перемещать их в архив.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-7">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-7">​</a></h3>
+<ul>
+<li><strong>Создать</strong> (Button 5)<!-- -->
+<ul>
+<li><strong>Функция</strong>: Открывает модальное окно для выбора раздела, в котором будет создана новая сущность.</li>
+<li><strong>Особенности</strong>: Синий фон кнопки привлекает внимание пользователя.</li>
+</ul>
+</li>
+<li><strong>Создать копированием</strong> (Button 6)<!-- -->
+<ul>
+<li><strong>Функция</strong>: Создает новую сущность путем копирования данных из выбранной сущности в таблице.</li>
+<li><strong>Действие</strong>: Открывается окно с заполненными данными выбранной сущности.</li>
+<li><strong>Особенности</strong>:<!-- -->
+<ul>
+<li>Ускоряет процесс создания за счет повторного использования существующих данных.</li>
+<li>Позволяет вносить изменения в копируемую информацию перед сохранением.</li>
+<li>Полезно для создания похожих сущностей с небольшими изменениями.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Редактировать</strong> (Button 7)<!-- -->
+<ul>
+<li><strong>Функция</strong>: Открывает окно редактирования для выбранной сущности.</li>
+<li><strong>Действие</strong>: Данные выбранной сущности уже заполнены в открывшемся окне.</li>
+</ul>
+</li>
+<li><strong>Архив</strong> (Button 8)<!-- -->
+<ul>
+<li><strong>Функция</strong>: Перемещает выбранную сущность в архив.</li>
+<li><strong>Действие</strong>: Сущность удаляется из основной таблицы и сохраняется в архиве.</li>
+</ul>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/Редактор материала REQ22"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Редактор материала REQ22</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База материалов REQ24"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">База материалов REQ24</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#путь">Путь</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-страницы-база-инструмента-и-оснастки">Описание страницы База инструмента и оснастки</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требовани я/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#требования">Требования</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#макет">Макет</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-по-отметке-button-1">Описание Сортировки по отметке (Button 1)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-1">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-1">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-по-дате-создания-button-2">Описание Сортировки по дате создания (Button 2)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-2">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-2">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сортировки-показать-мои-button-3">Описание сортировки Показать мои (Button 3)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-3">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-3">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-сборосить-button-4">Описание Сборосить (Button 4)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-4">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-4">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-таблиц">Описание таблиц</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#структура">Структура</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-5">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-5">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-кнопок-категорий">Описание кнопок категорий</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-6">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-6">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#описание-компонентов-управления">Описание компонентов управления</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#особенности-7">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Базы данных и Редакторы/База инструмента и оснастки REQ23#функционал-7">Функционал</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
