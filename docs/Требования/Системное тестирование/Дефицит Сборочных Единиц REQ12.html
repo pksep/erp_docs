@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.4.0">
 <title data-rh="true">Дефицит Сборочных Единиц REQ12 | SEP:ERP Документация</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Дефицит Сборочных Единиц REQ12 | SEP:ERP Документация"><meta data-rh="true" name="description" content="Путь"><meta data-rh="true" property="og:description" content="Путь"><link data-rh="true" rel="icon" href="/sep_erp_docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12" hreflang="en"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12" hreflang="x-default"><link rel="stylesheet" href="/sep_erp_docs/assets/css/styles.40769eb2.css">
-<script src="/sep_erp_docs/assets/js/runtime~main.adbeffd1.js" defer="defer"></script>
+<script src="/sep_erp_docs/assets/js/runtime~main.6dd91087.js" defer="defer"></script>
 <script src="/sep_erp_docs/assets/js/main.20a55fd3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -63,6 +63,7 @@
 <li><strong>Запуск в производство</strong>
 <ul>
 <li>Выбор и запуск позиций из списка в производство.</li>
+<li>При запуске сборки в производство она автоматически появляется на странице &quot;Комплектация сборок на план&quot;, так как эта операция предусмотрена по умолчанию для всех сборок и изделий.</li>
 </ul>
 </li>
 <li><strong>Просмотр нормы времени</strong>
@@ -74,7 +75,7 @@
 <ul>
 <li>Фильтрация по &quot;Статусу&quot; (&quot;Все&quot;, &quot;Заказано&quot;, &quot;Не заказано&quot;).</li>
 <li>Фильтрация по &quot;Дефициту&quot; (&quot;Все&quot;, &quot;Общий&quot;, &quot;По заказам покупателя&quot;).</li>
-<li>Фильтрация по &quot;Заказ покупателя из задач на отгрузку&quot; (позволяет отобразить товары, связанные с конкретными заказами).</li>
+<li>Фильтрация по &quot;Заказ покупателя из задач на отгрузку&quot; (поз воляет отобразить товары, связанные с конкретными заказами).</li>
 </ul>
 </li>
 </ul>
@@ -102,7 +103,7 @@
 <li><strong>Фильтрация</strong>
 <ul>
 <li>Пользователь должен иметь возможность отфильтровать по &quot;Статусу&quot; (&quot;Все&quot;, &quot;Заказано&quot;, &quot;Не заказано&quot;).</li>
-<li>Пользователь должен иметь возможность отфильтровать &quot;Дефициту&quot; (&quot;Все&quot;, &quot;Общ ий&quot;, &quot;По заказам покупателя&quot;).</li>
+<li>Пользователь должен иметь возможность отфильтровать &quot;Дефициту&quot; (&quot;Все&quot;, &quot;Общий&quot;, &quot;По заказам покупателя&quot;).</li>
 <li>Пользователь должен иметь возможность отфильтровать &quot;Заказ покупателя из задач на отгрузку&quot; (позволяет отобразить товары, связанные с конкретными заказами).</li>
 </ul>
 </li>
@@ -110,9 +111,9 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="макет">Макет<a class="hash-link" aria-label="Direct link to Макет" title="Direct link to Макет" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#макет">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="Пример изображения Дефицит сборочных единиц" src="/sep_erp_docs/assets/images/ShortagheAssemblyUnit-e3cc91eb88fdfccf71db915fd3f0c475.png" width="817" height="555" class="img_ev3q"></p>
-<table><thead><tr><th>Элементы окна</th><th>Назначение</th></tr></thead><tbody><tr><td>Filter 1</td><td>Фильтрует по статусу и дефициту</td></tr><tr><td>Order filter</td><td>отображен фильтр &quot;Заказ покупателя из задач на отгрузку&quot; REQ002</td></tr><tr><td>Table 1</td><td>Таблица Дефицита продукции</td></tr><tr><td>Button 1</td><td>Открывает модальное окно &quot;Норма времени по операциям&quot;</td></tr><tr><td>Button 2</td><td>Открывает модальное окно &quot;Запустить в производство&quot;</td></tr><tr><td>Checkbox</td><td>Клик приводит к выбору всех элементов из списка или снимает выбор со всех элементов из списка</td></tr></tbody></table>
+<table><thead><tr><th>Элементы окна</th><th>Назначение</th></tr></thead><tbody><tr><td>Filter 1</td><td>Фильтрует по статусу и дефициту</td></tr><tr><td>Order filter</td><td>отображен фильтр &quot;Заказ покупателя из задач на отгрузку&quot; REQ002</td></tr><tr><td>Table 1</td><td>Таблица Дефицита продукции</td></tr><tr><td>Button 1</td><td>Открывает модальное окно &quot;Норма времени по операциям&quot;</td></tr><tr><td>Button 2</td><td>Открывает модальное окно &quot;Запустить в про изводство&quot;</td></tr><tr><td>Checkbox</td><td>Клик приводит к выбору всех элементов из списка или снимает выбор со всех элементов из списка</td></tr></tbody></table>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="подключенные-компон енты">Подключенные компоненты<a class="hash-link" aria-label="Direct link to Подключенные компоненты" title="Direct link to Подключенные компоненты" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#подключенные-компоненты">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="подключенные-компоненты">Подключенные компоненты<a class="hash-link" aria-label="Direct link to Подключенные компоненты" title="Direct link to Подключенные компоненты" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#подключенные-компоненты">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)<a class="hash-link" aria-label="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" title="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">​</a></h3>
 <ul>
 <li><strong>Заказ покупателя из задач на отгрузку</strong>
@@ -139,7 +140,7 @@
 <li><strong>Не заказано</strong>: включает позиции, которые ещё не были заказаны.</li>
 </ul>
 </li>
-<li><strong>Значение по умолчанию</strong>
+<li><strong>Зн ачение по умолчанию</strong>
 <ul>
 <li>Автоматически выбирается опция &quot;Все&quot;, чтобы пользователь сразу видел полный список без дополнительной настройки.</li>
 </ul>
@@ -188,7 +189,7 @@
 </li>
 <li><strong>Значение по умолчанию</strong>
 <ul>
-<li>Автоматически выбирается опция &quot;Все&quot;, чтобы пользователь сразу видел полный список без необходимости настройки.</li>
+<li>Автоматически выбирается о пция &quot;Все&quot;, чтобы пользователь сразу видел полный список без необходимости настройки.</li>
 </ul>
 </li>
 </ul>
@@ -239,7 +240,7 @@
 <li>При двойном клике открывается модальное окно &quot;Краткая информация о Сборочной Единице&quot;.</li>
 </ul>
 </li>
-<li><strong>Дата план. отгрузки</strong>: Показывает ближайшую дату плани руемой отгрузки.</li>
+<li><strong>Дата план. отгрузки</strong>: Показывает ближайшую дату планируемой отгрузки.</li>
 <li><strong>Заказы</strong>:<!-- -->
 <ul>
 <li><a href="/sep_erp_docs/assets/files/plus-f53187720ba6f191256a912799f857b8.png" target="_blank">иконка</a>, открывающая модальное окно &quot;Список заказов&quot;.</li>
@@ -283,7 +284,7 @@
 </li>
 <li><strong>Рекомендуемый остаток</strong>
 <ul>
-<li>Отображает рекомендуемый остаток Сбор очных Едениц.</li>
+<li>Отображает рекомендуемый остаток Сборочных Едениц.</li>
 </ul>
 </li>
 <li><strong>Норма времени на одну единицу (сборка-изготовл.)</strong>
@@ -293,7 +294,8 @@
 </li>
 <li><strong>СВОЕ кол-во (по умолч. равно рекоменд. кол-ву)</strong>
 <ul>
-<li>Поле для ввода собственного количества, по умолчанию равного рекомендованному. <span style="color:red">TODO: что записать ?</span></li>
+<li>Мин. остаток * 3 + Потребность по заказам склада - (количество на складе + заказаное количество на производстве)</li>
+<li>Если свое количество не указно подставляем 0.</li>
 </ul>
 </li>
 <li><strong>Общая норма времени (сборка+изготовл.)</strong>
@@ -308,7 +310,7 @@
 </li>
 <li><strong>Реальный остаток с учетом планируемых отгрузок и планируемого производства</strong>
 <ul>
-<li>Конечный остаток с учетом всех планируемых операций.</li>
+<li>Дефицит = кол-во - (минималный остаток + дефицит по заказам склада)</li>
 </ul>
 </li>
 <li><strong>Уровень комплектации, %</strong>
@@ -351,8 +353,8 @@
 </li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-компонентов-управления">Описание &quot;Компонентов управления&quot;<a class="hash-link" aria-label="Direct link to Описание &quot;Компонентов управления&quot;" title="Direct link to Описание &quot;Компонентов управления&quot;" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-компонентов-управления">​</a></h2>
-<p>Компоненты управления представлены двумя кнопками: &quot;Норма времени по операциям&quot; и &quot;Запустить в производс тво&quot;.<br>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-компонентов-управления">Описание &quot;Компонентов управления&quot;<a class="hash-link" aria-label="Direct link to Описание &quot;Компонентов управления&quot;" title="Direct link to Описание &quot;Компонентов у правления&quot;" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-компонентов-управления">​</a></h2>
+<p>Компоненты управления представлены двумя кнопками: &quot;Норма времени по операциям&quot; и &quot;Запустить в производство&quot;.<br>
 <!-- -->Эти кнопки обеспечивают доступ к основным функциям системы и упрощают взаимодействие пользователя с интерфейсом.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-3">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-3">​</a></h3>
 <ul>
@@ -394,6 +396,6 @@
 <li><strong>Предупреждение</strong>: Если не выбрана ни одна позиция из списка, отображается сообщение &quot;Для начала выберите СБ и заказ&quot;, чтобы пользователь мог корректно выполнить действие.</li>
 </ul>
 </li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит продукции REQ11"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Дефицит продукции REQ11</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит деталей REQ13"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Дефицит деталей REQ13</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#путь">Путь</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание">Описание</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#требования">Требования</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#макет">Макет</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#подключенные-компоненты">Подключенные компоненты</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-фильтра-статусы">Описание фильтра &quot;Статусы&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-1">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/С истемное тестирование/Дефицит Сборочных Единиц REQ12#функционал-1">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-фильтра-дефициты">Описание фильтра &quot;Дефициты&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-2">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал-2">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-таблицы-дефицита-комплектация-сборки-table-1">Описание Таблицы Дефицита Комплектация сборки (Table 1)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#структура">Структура</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-и-функционал">Особенности и Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системно е тестирование/Дефицит Сборочных Единиц REQ12#описание-компонентов-управления">Описание &quot;Компонентов управления&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-3">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал-3">Функционал</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит продукции REQ11"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Дефицит продукции REQ11</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит деталей REQ13"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Дефицит деталей REQ13</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#путь">Путь</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание">Описание</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#требования">Требования</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#макет">Макет</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#подключенные-компоненты">Подключенные компоненты</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описани е-фильтра-статусы">Описание фильтра &quot;Статусы&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-1">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал-1">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-фильтра-дефициты">Описание фильтра &quot;Дефициты&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-2">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал-2">Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-таблицы-дефицита-комплектация-сборки-table-1">Описание Таблицы Дефицита Комплектация сборки (Table 1)</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#структура">Структура</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-и-функционал">Особенности и Функционал</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#описание-компонентов-управления">Описание &quot;Компонентов управления&quot;</a><ul><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#особенности-3">Особенности</a></li><li><a class="table-of-contents__link toc-highlight" href="/sep_erp_docs/docs/Требования/Системное тестирование/Дефицит Сборочных Единиц REQ12#функционал-3">Функционал</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>

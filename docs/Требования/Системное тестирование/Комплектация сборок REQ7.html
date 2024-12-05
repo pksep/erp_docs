@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.4.0">
 <title data-rh="true">Комплектация сборок REQ7 | SEP:ERP Документация</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://npo-automotive.github.io/sep_erp_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Комплектация сборок REQ7 | SEP:ERP Документация"><meta data-rh="true" name="description" content="Путь"><meta data-rh="true" property="og:description" content="Путь"><link data-rh="true" rel="icon" href="/sep_erp_docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7" hreflang="en"><link data-rh="true" rel="alternate" href="https://npo-automotive.github.io/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7" hreflang="x-default"><link rel="stylesheet" href="/sep_erp_docs/assets/css/styles.40769eb2.css">
-<script src="/sep_erp_docs/assets/js/runtime~main.adbeffd1.js" defer="defer"></script>
+<script src="/sep_erp_docs/assets/js/runtime~main.6dd91087.js" defer="defer"></script>
 <script src="/sep_erp_docs/assets/js/main.20a55fd3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -43,6 +43,11 @@
 <li>Список заказов по датам с возможностью поиска по &quot;Номеру заказа&quot; для фильтрации сущностей по конкретным заказам покупателей, позволяя быстро находить нужные данные.</li>
 </ul>
 </li>
+<li><strong>Комплектация наборов</strong>
+<ul>
+<li>После комплектации всех наборов по данной сборке она исчезает с этой страницы и отображается только на странице &quot;Скомплектованные наборы&quot;.</li>
+</ul>
+</li>
 </ul>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="требования">Требования<a class="hash-link" aria-label="Direct link to Требования" title="Direct link to Требования" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#требования">​</a></h2>
@@ -74,11 +79,11 @@
 <table><thead><tr><th>Элементы окна</th><th>Назначение</th></tr></thead><tbody><tr><td>Button 1</td><td>открывает модальное окно &quot;База Продукций&quot;</td></tr><tr><td>Order filter</td><td>отображен фильтр &quot;Заказ покупателя из задач на отгрузку&quot; REQ002</td></tr><tr><td>Table 1</td><td>Таблица комплектаций сборок на план</td></tr></tbody></table>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="подключенные-компоненты">Подключенные компоненты:<a class="hash-link" aria-label="Direct link to Подключенные компоненты:" title="Direct link to Подключенные компоненты:" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#подключенные-компоненты">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)<a class="hash-link" aria-label="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" title="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="фильтр-заказ-покупателя-из-задач-на-отгрузку-req002">Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)<a class="hash-link" aria-label="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" title="Direct link to Фильтр &quot;Заказ покупателя из задач на отгрузку&quot; (REQ002)" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#фил ьтр-заказ-покупателя-из-задач-на-отгрузку-req002">​</a></h3>
 <ul>
 <li><strong>Заказ покупателя из задач на отгрузку</strong>
 <ul>
-<li>Фильтр (Order filter) REQ002 предоставляет пользователям инструменты для эффективного упр авления и мониторинга заказов покупателей, готовых к отгрузке.</li>
+<li>Фильтр (Order filter) REQ002 предоставляет пользователям инструменты для эффективного управления и мониторинга заказов покупателей, готовых к отгрузке.</li>
 </ul>
 </li>
 </ul>
@@ -86,7 +91,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-функции-сортировка-по-родителю">Описание функции &quot;Сортировка по родителю&quot;<a class="hash-link" aria-label="Direct link to Описание функции &quot;Сортировка по родителю&quot;" title="Direct link to Описание функции &quot;Сортировка по родителю&quot;" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#описание-функции-сортировка-по-родителю">​</a></h2>
 <p>Кнопка &quot;Выбрать&quot; (Button 1) связана с функцией сортировки по родительскому объекту и предназначена для выбора и установки конкретного объекта (СБ, Изд, Д) в качестве критерия сортировки.<br>
 <!-- -->При нажатии на эту кнопку открывается модальное окно &quot;База Продукции&quot;, которое позволяет пользователю выбрать необходимый объект из доступных вариантов.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-1">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#особенности-1">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-1">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенност и" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#особенности-1">​</a></h3>
 <ul>
 <li><strong>Интуитивное обозначение</strong>
 <ul>
@@ -113,7 +118,7 @@
 </li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-таблицы-комплектация-сборок-на-план">Описание таблицы Комплектация сборок на план<a class="hash-link" aria-label="Direct link to Описание таблицы Комплектация сборок на план" title="Direct link to Описан ие таблицы Комплектация сборок на план" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#описание-таблицы-комплектация-сборок-на-план">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="описание-таблицы-комплектация-сборок-на-план">Описание таблицы Комплектация сборок на план<a class="hash-link" aria-label="Direct link to Описание таблицы Комплектация сборок на план" title="Direct link to Описание таблицы Комплектация сборок на план" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#описание-таблицы-комплектация-сборок-на-план">​</a></h2>
 <p>Интерфейс представляет собой таблицу (Table 1), отображающую список комплектаций сборок.<br>
 <!-- -->Пользователи могут управлять и просматривать информацию о каждой сборочной единице, используя различные функции и фильтры.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="структура">Структура<a class="hash-link" aria-label="Direct link to Структура" title="Direct link to Структура" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#структура">​</a></h3>
@@ -171,7 +176,7 @@
 </li>
 <li><strong>Статус</strong>
 <ul>
-<li>Отображает статус комплектации: &quot;В процессе&quot; или &quot;Готово&quot;.</li>
+<li>Отображает статус комплектации: &quot;В процессе&quot; или &quot;Г отово&quot;.</li>
 </ul>
 </li>
 <li><strong>Дефициты</strong>
@@ -218,7 +223,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="особенности-2">Особенности<a class="hash-link" aria-label="Direct link to Особенности" title="Direct link to Особенности" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#особенности-2">​</a></h3>
 <ul>
 <li>Объединение колонок <em>Дата исполнения</em>, <em>Кол-во собрано</em>, <em>Исполнитель</em> и <em>Примечание</em> в случае отсутствия данных, с текстом &quot;Нет собранных наборов&quot;.</li>
-<li>Отображение <span style="color:red">TODO: требуется уточн ение</span> по 11 наименований с возможностью скроллинга.</li>
+<li>Отображение <span style="color:red">TODO: требуется уточнение</span> по 11 наименований с возможностью скроллинга.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="функционал-1">Функционал<a class="hash-link" aria-label="Direct link to Функционал" title="Direct link to Функционал" href="/sep_erp_docs/docs/Требования/Системное тестирование/Комплектация сборок REQ7#функционал-1">​</a></h3>
 <ul>
