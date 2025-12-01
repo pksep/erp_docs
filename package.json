@@ -1,11 +1,16 @@
 {
+  "name": "erp_docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ERP Documentation Site",
   "scripts": {
-    "start:dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "start": "vitepress preview docs"
+    "start:dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "start": "vitepress preview src"
   },
   "dependencies": {},
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.15"
+    "vitepress": "^1.4.3",
+    "typescript": "^5.0.0"
   }
 }
