@@ -15,7 +15,7 @@ export default defineConfig({
     nav: [
       { text: "Документы", link: "/" },
       {
-        text: "Вернутся в ERP",
+        text: "Вернуться в ERP",
         link: "https://dev.pksep.ru",
       },
     ],
