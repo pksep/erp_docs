@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Полное руководство пользователя ERP системы",
   lastUpdated: true,
   head: [
-    ["link", { rel: "icon", href: "/erp_docs/favicon.ico" }],
+    ["link", { rel: "icon", href: "./img/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
   ],
   locales: {
