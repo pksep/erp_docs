@@ -5,7 +5,7 @@ hero:
   text: Полное руководство пользователя
   tagline: Всё, что нужно для эффективной работы с системой
   image:
-    src: ./img/logo.png
+    src: /logo.png
     alt: ERP Logo
   actions:
     - theme: brand
