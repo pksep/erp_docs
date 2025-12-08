@@ -34,7 +34,6 @@ export default defineConfig({
           text: "Руководство",
           items: [
             { text: "Начало работы", link: "/guide/getting-started" },
-            { text: "Частые вопросы", link: "/guide/faq" },
           ],
         },
       ],
