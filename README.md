@@ -6,16 +6,16 @@ This repository contains the documentation for our ERP system, built with VitePr
 
 ```bash
 # Install dependencies
-bun install
+bun i
 
 # Start local development server
-bun run docs:dev
+bun run start:dev
 
 # Build for production
-bun run docs:build
+bun run build
 
 # Preview the built site locally
-bun run docs:preview
+bun run start
 ```
 
 ## Deployment
