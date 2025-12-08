@@ -68,10 +68,10 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/erp_docs' },
+      { icon: 'github', link: 'https://github.com/pksep/erp_docs' },
     ],
     editLink: {
-      pattern: 'https://github.com/yourusername/erp_docs/edit/main/src/:path',
+      pattern: 'https://github.com/pksep/erp_docs/edit/main/src/:path',
       text: 'Редактировать страницу',
     },
     footer: {
