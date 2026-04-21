@@ -12,8 +12,8 @@ hero:
       text: Начать работу
       link: /guide/getting-started
     - theme: alt
-      text: Примеры использования
-      link: /use-cases/
+      text: Видео-гайды
+      link: /videos/
 
 features:
   - icon: 📚
@@ -22,13 +22,9 @@ features:
   - icon: 🎥
     title: Видео-гайды
     details: Наглядные видео-инструкции для быстрого обучения
-  - icon: 💡
-    title: Примеры из практики
-    details: Готовые сценарии использования системы
 ---
 
 ## Быстрый доступ
 
 - [Начало работы](/guide/getting-started)
 - [Видео-гайды](/videos/)
-- [Примеры использования](/use-cases/)

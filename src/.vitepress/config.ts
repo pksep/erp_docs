@@ -21,7 +21,6 @@ export default defineConfig({
     nav: [
       { text: "Главная", link: "/" },
       { text: "Руководство", link: "/guide/getting-started" },
-      { text: "Примеры использования", link: "/use-cases/" },
       { text: "Видео-гайды", link: "/videos/" },
       {
         text: "Вернуться в ERP",
@@ -31,22 +30,14 @@ export default defineConfig({
     sidebar: {
       "/guide/": [
         {
-          text: "Руководство",
+          text: "Getting Started",
           items: [
             { text: "Начало работы", link: "/guide/getting-started" },
+            { text: "Справочник по терминам", link: "/guide/glossary" },
           ],
         },
       ],
-      "/use-cases/": [
-        {
-          text: "Примеры использования",
-          items: [
-            { text: "Управление запасами", link: "/use-cases/#управление-запасами" },
-            { text: "Работа с заказами", link: "/use-cases/#работа-с-заказами" },
-            { text: "Отчетность", link: "/use-cases/#отчетность" },
-          ],
-        },
-      ],
+
       "/videos/": [
         {
           text: "Видео-гайды",
