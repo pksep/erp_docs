@@ -41,10 +41,9 @@ export default defineConfig({
           text: "Архитектурные решения",
           items: [
             { text: "Реестр решений", link: "/guide/decisions/REGISTRY" },
-            { text: "ADR-0001 Инициализация документации", link: "/guide/decisions/0001-initialize-documentation" },
-            { text: "ADR-0002 Работа с файлами", link: "/guide/decisions/0002-file-handling-architecture" },
-            { text: "ADR-0003 Работа с комментариями", link: "/guide/decisions/0003-comment-handling-architecture" },
-            { text: "ADR-0004 Производственные задания", link: "/guide/decisions/0004-production-task-handling-architecture" },
+           
+           
+          
             { text: "ADR-0005 Расчёт start_time", link: "/guide/decisions/0005-production-task-start-time-handling-architecture" },
             { text: "ADR-0006 Загруженность сотрудников", link: "/guide/decisions/0006-users-by-production-task" },
             { text: "ADR-0007 plan_ready_time", link: "/guide/decisions/0007-production-task-plan-ready-time" },
