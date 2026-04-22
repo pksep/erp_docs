@@ -6,10 +6,10 @@
 
 | ID | Title | Status | Date |
 |----|-------|--------|------|
-| [ADR-0001](0001-initialize-documentation.md) | Инициализация документации ADR | Accepted | 2025-09-09 |
-| [ADR-0002](0002-file-handling-architecture.md) | Архитектура работы с файлами | Proposed | 2025-09-09 |
-| [ADR-0003](0003-comment-handling-architecture.md) | Архитектура работы с файлами | Proposed | 2025-10-02 |
-| [ADR-015](015-user-table-config.md) | Конфигурация таблиц пользователей | Accepted | 2026-03-16 |
+| [ADR-0001](/guide/decisions/0001-initialize-documentation) | Инициализация документации ADR | Accepted | 2025-09-09 |
+| [ADR-0002](/guide/decisions/0002-file-handling-architecture) | Архитектура работы с файлами | Proposed | 2025-09-09 |
+| [ADR-0003](/guide/decisions/0003-comment-handling-architecture) | Архитектура работы с файлами | Proposed | 2025-10-02 |
+| [ADR-015](/guide/decisions/015-user-table-config) | Конфигурация таблиц пользователей | Accepted | 2026-03-16 |
 
 ## Statuses
 
