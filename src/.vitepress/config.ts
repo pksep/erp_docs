@@ -5,9 +5,7 @@ export default defineConfig({
   title: "Документация ERP",
   description: "Полное руководство пользователя ERP системы",
   lastUpdated: true,
-  ignoreDeadLinks: (url) => {
-    return url.startsWith('http://localhost')
-  },
+  ignoreDeadLinks: "localhost",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
