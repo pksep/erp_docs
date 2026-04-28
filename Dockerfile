@@ -3,31 +3,37 @@ FROM oven/bun:1 AS builder
 
 WORKDIR /app
 
-# Install build dependencies for native modules
-RUN apt-get update && apt-get install -y build-essential python3 git && rm -rf /var/lib/apt/lists/*
+# Устанавливаем системные зависимости для сборки нативных модулей
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3 \
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy package files
-COPY package*.json ./
+# Копируем файлы манифестов (включая lock-файл для стабильности)
+COPY package*.json bun.lockb* ./
 
-# Install dependencies
+# Устанавливаем основные зависимости
 RUN bun install
 
-# Install missing Rollup native module
+# Принудительно добавляем модуль Rollup для архитектуры Linux x64 
+# (это решает ошибку, которую ты скидывал)
 RUN bun add @rollup/rollup-linux-x64-gnu
 
-# Copy project files
+# Копируем исходный код
 COPY . .
 
-# Build the project
+# Собираем статику Vitepress
 RUN bun run build
 
 # Serve stage
 FROM nginx:alpine
 
-# Copy built static files to Nginx
+# Копируем билд из папки src/.vitepress/dist в стандартную директорию nginx
+# Проверь, что в твоем проекте Vitepress настроен именно на этот путь
 COPY --from=builder /app/src/.vitepress/dist /usr/share/nginx/html
 
-# Expose port 80
+# Прокидываем 80 порт
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
