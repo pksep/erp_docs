@@ -43,7 +43,7 @@ pipeline {
 
                     /kaniko/executor \
                     --context "${WORKSPACE}" \
-                    --dockerfile "${WORKSPACE}/Dockerfile-kuber" \
+                    --dockerfile "${WORKSPACE}/Dockerfile" \
                     --registry-mirror "mirror.gcr.io" \
                     --destination "\$IMAGE_PATH:${BRANCH_NAME_SAFE}" \
                     --skip-tls-verify \
