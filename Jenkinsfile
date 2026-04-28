@@ -70,6 +70,8 @@ pipeline {
 
                     kubectl set image deployment/erp-doc erp-doc=\$FULL_IMAGE -n \$TARGET_NS
 
+                    kubectl rollout restart deployment/erp-doc -n \$TARGET_NS
+
                     kubectl rollout status deployment/erp-doc -n \$TARGET_NS --timeout=120s
                     """
                 }
