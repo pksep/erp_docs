@@ -1,9 +1,5 @@
 # Расчёт времени начала работ (start_time) для производственных операций
 
-- **Status:** Accepted
-- **Date:** 2026-03-06
-- **Tags:** #architecture #production-tasks #scheduling
-
 ## Контекст
 
 Расчёт `start_time` актуален для двух типов ресурсов:
