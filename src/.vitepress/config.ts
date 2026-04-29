@@ -38,14 +38,10 @@ export default defineConfig({
           ],
         },
         {
-          text: "Архитектурные решения",
-          items: [
-            { text: "Реестр решений", link: "/guide/decisions/REGISTRY" },
-           
-           
-          
-            { text: " Расчёт start_time", link: "/guide/decisions/0005-production-task-start-time-handling-architecture" },
-            { text: " Загруженность сотрудников", link: "/guide/decisions/0006-users-by-production-task" },
+          text: "Решения",
+          items: [ 
+            { text: "Расчёт start_time", link: "/guide/decisions/0005-production-task-start-time-handling-architecture" },
+            { text: "Загруженность сотрудников", link: "/guide/decisions/0006-users-by-production-task" },
             { text: "Требуемая дата готовности", link: "/guide/decisions/0007-production-task-plan-ready-time" },
             { text: "Расчётная дата изготовления", link: "/guide/decisions/008-calculate-needs-time" },
             { text: "Комплектация сборок", link: "/guide/decisions/009-calculate-complect-time" },
