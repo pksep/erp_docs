@@ -1,10 +1,4 @@
-# [ADR-0007] Расчёт плановой даты готовности (plan_ready_time) операций ПЗ
-
-- **Status:** Accepted
-- **Date:** 2026-02-04
-- **Updated:** 2026-04-10
-- **Members:** Михаил
-- **Tags:** #architecture #production-tasks #scheduling #erp #planning
+# Расчёт плановой даты готовности (plan_ready_time) операций ПЗ
 
 ## Контекст
 

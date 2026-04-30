@@ -1,11 +1,6 @@
 
 
-# [ADR-0006] Расчёт текущей и складской загруженности сотрудников подразделения
-
-- **Status:** Accepted
-- **Date:** 2026-01-30
-- **Members:** Михаил
-- **Tags:** #architecture #production-tasks #workload-analysis #erp #resource-management
+# Расчёт текущей и складской загруженности сотрудников подразделения
 
 ## Контекст
 
