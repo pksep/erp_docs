@@ -1,0 +1,16 @@
+stages:
+  - test
+
+test-k8s-runner:
+  stage: test
+  image: alpine:3.20
+  tags:
+    - k8s
+  script:
+    - echo "Hello from Gitlab Kuber Runner"
+    - echo "Project: $CI_PROJECT_PATH"
+    - echo "Branch: $CI_COMMIT_REF_NAME"
+    - echo "Commit: $CI_COMMIT_SHA"
+    - echo "Runner: $CI_RUNNER_DESCRIPTION"
+    - hostname
+    - cat /etc/os-release
