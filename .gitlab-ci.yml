@@ -7,10 +7,11 @@ test-k8s-runner:
   tags:
     - k8s
   script:
-    - echo "Hello from Gitlab Kuber Runner"
-    - echo "Project: $CI_PROJECT_PATH"
-    - echo "Branch: $CI_COMMIT_REF_NAME"
-    - echo "Commit: $CI_COMMIT_SHA"
-    - echo "Runner: $CI_RUNNER_DESCRIPTION"
-    - hostname
-    - cat /etc/os-release
+    - |
+      echo "Hello from GitLab Kubernetes Runner"
+      echo "Project: $CI_PROJECT_PATH"
+      echo "Branch: $CI_COMMIT_REF_NAME"
+      echo "Commit: $CI_COMMIT_SHA"
+      echo "Runner: $CI_RUNNER_DESCRIPTION"
+      hostname
+      cat /etc/os-release
