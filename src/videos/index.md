@@ -8,11 +8,3 @@ title: Видео-гайды
 
 ## 🏁 Начало работы
 
-<!-- ### Введение в систему
-<VideoCard 
-  title="Обзор интерфейса"
-  description="Знакомство с основными элементами управления"
-  duration="5:12"
-  thumbnail="/videos/thumbnails/interface-preview.jpg"
-  link="/videos/interface-tour"
-/> -->
