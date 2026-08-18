@@ -65,6 +65,8 @@ export default defineConfig({
           items: [
             { text: "Обратное планирование", link: "/guide/backward-planning" },
             { text: "Требуемое время готовности детали", link: "/guide/backward-planning/required-readiness-date-detal" },
+            { text: "Требуемое время готовности по операции для детали", link: "/guide/backward-planning/required-readiness-date-detal-operation" },
+            { text: "Типы расчета начала работ", link: "/guide/backward-planning/work-start-calculation-types" },
             { text: "Требуемое время готовности сборки", link: "/guide/backward-planning/required-readiness-date-cbed" },
             { text: "Требуемое время готовности изделия", link: "/guide/backward-planning/required-readiness-date-product" },
           ],
