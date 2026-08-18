@@ -61,6 +61,14 @@ export default defineConfig({
           ],
         },
         {
+          text: "Обратное планирование",
+          items: [
+            { text: "Обратное планирование", link: "/guide/backward-planning" },
+            { text: "Требуемое время готовности детали", link: "/guide/backward-planning/required-readiness-date-detal" },
+            { text: "Требуемое время готовности сборки", link: "/guide/backward-planning/required-readiness-date-cbed" },
+          ],
+        },
+        {
           text: "Формулы и расчеты",
           items: [
             { text: "Понятия и формулы", link: "/guide/formulas/0001-formulas" },
