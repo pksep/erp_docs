@@ -76,6 +76,10 @@ export default defineConfig({
           items: [
             { text: "Понятия и формулы", link: "/guide/formulas/0001-formulas" },
             { text: "Производство", link: "/guide/formulas/0001-formulas#production-page" },
+            { text: "ПЗ по оборудованию", link: "/guide/formulas/0001-formulas#production-tasks-by-equipment" },
+            { text: "ПЗ по исполнителю", link: "/guide/formulas/0001-formulas#production-tasks-by-user" },
+            { text: "ПЗ по операции сборки", link: "/guide/formulas/0001-formulas#production-tasks-by-operation" },
+            { text: "ПЗ по операции металлообработки", link: "/guide/formulas/0001-formulas#production-tasks-by-operation-metalloworking" },
             { text: "Производственный путь", link: "/guide/formulas/0001-formulas#production-path" },
             { text: "Результаты работ за период", link: "/guide/formulas/0001-formulas#production-work-results" },
           ],
