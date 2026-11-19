@@ -75,6 +75,9 @@ export default defineConfig({
           text: "Формулы и расчеты",
           items: [
             { text: "Понятия и формулы", link: "/guide/formulas/0001-formulas" },
+            { text: "Производство", link: "/guide/formulas/0001-formulas#production-page" },
+            { text: "Производственный путь", link: "/guide/formulas/0001-formulas#production-path" },
+            { text: "Результаты работ за период", link: "/guide/formulas/0001-formulas#production-work-results" },
           ],
         },
       ],
